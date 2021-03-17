@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { Client } from 'boardgame.io/react';
+import React from 'react';
+import { Face } from './Game/Face';
 
-import { TicTacToe } from './Game/TicTacToe';
-
-const App = Client({ game: TicTacToe });
+const App = () => (
+  <>
+    <Face />
+  </>
+);
 
 export default App;
